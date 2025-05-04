@@ -1,0 +1,1432 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('C:/wikiPro/wikiPro/public/fonts/wiki.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@layer base {
+  html {
+    font-family: 'Linux Libertine', system-ui, sans-serif;
+  }
+}
+
+.wiki-font{
+  font-family: Lin;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #202122;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.sprite {
+  background-image: linear-gradient(transparent, transparent), url("/icons.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sprite-wiki {
+  background-position: 0 -304px;
+  width: 176px;
+  height: 32px;
+}
+
+.central-textlogo {
+  margin-top: 40px;
+  position: relative;
+  margin: 4rem auto .5rem;
+  width: 270px;
+  font-family: Linux Libertine, Hoefler Text, Georgia, Times New Roman, Times, serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 3.3rem;
+  text-align: center;
+  -ms-font-feature-settings: "ss05";
+  font-feature-settings: "ss05";
+}
+
+.central-featured-logo{
+  position: absolute;
+  top: 150px;
+  left: 35px;
+}
+
+/* Languages css */
+.lang1 {
+  top: 0;
+  right: 60%;
+}
+
+.lang2 {
+  top: 0;
+  left: 60%;
+}
+
+.lang3 {
+  top: 20%;
+  right: 70%;
+}
+
+.lang4 {
+  top: 20%;
+  left: 70%;
+}
+
+.lang5 {
+  top: 40%;
+  right: 72%;
+}
+
+.lang6 {
+  top: 40%;
+  left: 72%;
+}
+
+.lang7 {
+  top: 60%;
+  right: 70%;
+}
+
+.lang8 {
+  top: 60%;
+  left: 70%;
+}
+
+.lang9 {
+  top: 80%;
+  right: 60%;
+}
+
+.lang10 {
+  top: 80%;
+  left: 60%;
+}
+
+.central-featured-lang {
+  position: absolute;
+  width: 15.6rem;
+}
+
+.central-featured {
+  position: relative;
+  height: 18.5rem;
+  width: 26.6rem;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.link-box {
+  padding: 0;
+  text-decoration: none;
+  white-space: normal;
+}
+
+/* Footer */
+.other-project {
+  float: left;
+  position: relative;
+  width: 29%;
+  height: 5rem;
+}
+
+a.other-project-link {
+  text-decoration: none;
+}
+.other-project-link {
+  display: inline-block;
+  min-height: 50px;
+  width: 90%;
+  padding: 1em;
+  white-space: nowrap;
+}
+
+.other-project-icon {
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+}
+
+.other-project-text {
+  max-width: 65%;
+  font-size: 15px;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+.other-project-text, .other-project .sprite-project-logos {
+  display: inline-block;
+}
+
+.other-project-tagline, .other-project-title {
+  display: block;
+}
+
+.other-projects {
+  display: inline-block;
+  width: 65%;
+}
+
+.other-project-tagline{
+  font-size: 14px;
+}
+.other-project-title{
+  color: #36c
+}
+
+.small-logo1 {
+  background-position: 0 0;
+  width: 47px;
+  height: 47px;
+}
+
+.small-logo2{
+  background-position: 0 -496px;
+  width: 36px;
+  height: 36px;
+}
+
+.small-logo3{
+  background-position: 0 -532px;
+  width: 37px;
+  height: 37px;
+}
+
+.small-logo4{
+  background-position: 0 -126px;
+  width: 37px;
+  height: 37px;
+}
+
+.small-logo5{
+  background-position: 0 0;
+  background-size: 47px 26px;
+  width: 47px;
+  height: 26px;
+  background-image: url("/wikinews.png")
+}
+
+.small-logo6{
+  background-position: 0 -163px;
+  width: 49px;
+  height: 49px;
+}
+
+.small-logo7{
+  background-position: 0 -459px;
+    width: 43px;
+    height: 37px;
+}
+
+.small-logo8{
+  background-position: 0 -336px;
+  width: 42px;
+  height: 42px;
+}
+
+.small-logo9{
+  background-position: 0 -47px;
+  width: 42px;
+  height: 42px;
+}
+
+.small-logo10{
+  background-position: 0 -378px;
+    width: 39px;
+    height: 39px;
+} 
+
+.small-logo11{
+  background-position: 0 -417px;
+    width: 42px;
+    height: 42px;
+}
+
+.small-logo12{
+  background-position: 0 -212px;
+  width: 50px;
+  height: 50px;
+}
+
+.small-logo13{
+  background-position: 0 -89px;
+    width: 37px;
+    height: 37px;
+}
+
+.footer-sidebar {
+  width: 35%;
+  float: left;
+  clear: left;
+  margin-bottom: 3.2rem;
+  vertical-align: top;
+}
+
+.footer-sidebar-content {
+  position: relative;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.footer-sidebar-text {
+  position: relative;
+  font-size: 13px;
+  margin: 0;
+  padding-left: 4.2rem;
+  padding-right: 0.6rem;
+  color: #54595d;
+}
+
+.wrap-foot{
+  margin-left: 150px;
+}
+
+.svg-Wikimedia-logo_black {
+  background-position: 0 -262px;
+  width: 42px;
+  height: 42px;
+}
+
+.sprite.footer-sidebar-icon {
+  position: absolute;
+  top: 0;
+  left: .8rem;
+}
+
+.app-badges .footer-sidebar-text {
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+}
+
+.main-logo-page{
+  width: 180px;
+  height: 20px;
+}
+
+/* body {
+  font-family: 'Linux Libertine','Georgia','Times',serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #222;
+} */
+
+/* Wikipedia content specific styles */
+.wiki-content {
+  font-family: sans-serif;
+}
+
+.wiki-content h1, .wiki-content h2, .wiki-content h3 {
+  font-family: 'Linux Libertine','Georgia','Times',serif;
+  border-bottom: 1px solid #a2a9b1;
+  font-weight: normal;
+}
+
+.wiki-content a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.wiki-content a:hover {
+  text-decoration: underline;
+}
+
+.wiki-content table {
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+.wiki-content table th {
+  background-color: #f8f9fa;
+}
+
+.wiki-content table th, .wiki-content table td {
+  border: 1px solid #a2a9b1;
+  padding: 0.2em 0.4em;
+}
+
+.wiki-content .infobox {
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  margin: 0.5em 0 0.5em 1em;
+  padding: 0.2em;
+  float: right;
+  clear: right;
+  width: 22em;
+}
+
+/* Float images to the right with text wrapping around them */
+.wiki-content .thumbinner {
+  border: 1px solid #c8ccd1;
+  padding: 3px;
+  background-color: #f8f9fa;
+  font-size: 94%;
+  text-align: center;
+  overflow: hidden;
+  margin: 0.5em 0 0.8em 1.4em;
+  float: right;
+  clear: right;
+  max-width: 220px;
+}
+
+/* Image and text side-by-side layout */
+.wiki-content div.thumb {
+  margin-bottom: 0.5em;
+  width: auto;
+  background-color: transparent;
+  float: right;
+  clear: right;
+  margin-left: 1.4em;
+}
+
+.wiki-content img {
+  border: 0;
+  vertical-align: middle;
+}
+
+.wiki-content .thumbcaption {
+  text-align: left;
+  line-height: 1.4em;
+  padding: 3px;
+}
+
+figure {
+  width: fit-content;
+  float: left;
+  margin: 10px 30px;
+}
+
+.mw-references-wrap {
+  margin: 10px;
+}
+
+figcaption{
+  max-width: 250px;
+}
+
+wiki-content table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  border: 1px solid #a2a9b1;
+  font-size: 14px;
+}
+
+.wiki-content table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.2em 0.4em;
+  border: 1px solid #a2a9b1;
+}
+
+.wiki-content table td {
+  padding: 0.2em 0.4em;
+  border: 1px solid #a2a9b1;
+}
+
+.wiki-content .wikitable {
+  background-color: #f8f9fa;
+}
+
+.wiki-content table.sortable th {
+  background-image: url('https://en.wikipedia.org/static/images/icons/sort_both.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 21px;
+  cursor: pointer;
+}
+
+.wiki-content table caption {
+  font-weight: bold;
+  text-align: center;
+  padding: 0.2em;
+}
+
+
+/* notes */
+// ------ Add this to src/index.css for highlight and note styling ------
+/* Note-taking styles */
+.notes-enabled {
+  cursor: text;
+}
+
+/* Highlights */
+.highlight {
+  cursor: pointer;
+  padding: 0 1px;
+  border-radius: 2px;
+}
+
+.highlight-yellow {
+  background-color: rgba(255, 255, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 200, 0, 0.7);
+}
+
+.highlight-green {
+  background-color: rgba(0, 255, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 200, 0, 0.7);
+}
+
+.highlight-blue {
+  background-color: rgba(0, 0, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 200, 0.7);
+}
+
+.highlight-purple {
+  background-color: rgba(128, 0, 128, 0.1);
+  border-bottom: 1px solid rgba(128, 0, 128, 0.7);
+}
+
+/* Notes */
+.note {
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px dashed;
+  padding: 0 1px;
+}
+
+.note-yellow {
+  border-color: rgba(255, 200, 0, 0.7);
+  background-color: rgba(255, 255, 0, 0.1);
+}
+
+.note-green {
+  border-color: rgba(0, 200, 0, 0.7);
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.note-blue {
+  border-color: rgba(0, 0, 200, 0.7);
+  background-color: rgba(0, 0, 255, 0.05);
+}
+
+.note-purple {
+  border-color: rgba(128, 0, 128, 0.7);
+  background-color: rgba(128, 0, 128, 0.05);
+}
+
+.note-icon {
+  display: inline-block;
+  font-size: 10px;
+  vertical-align: super;
+  opacity: 0.7;
+}
+
+/* Note popup */
+.note-popup {
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: calc(100vw - 40px);
+}
+
+.note-popup-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.note-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #eaecef;
+}
+
+.note-popup-header button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #666;
+}
+
+.note-popup-body {
+  padding: 12px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.note-popup-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 12px;
+  border-top: 1px solid #eaecef;
+  gap: 8px;
+}
+
+.note-popup-footer button {
+  padding: 4px 8px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.note-popup-footer button:hover {
+  background-color: #e8e8e8;
+}
+
+/* Note sidebar */
+.notes-sidebar {
+  position: fixed;
+  top: 0;
+  right: -340px;
+  width: 320px;
+  height: 100vh;
+  background-color: white;
+  border-left: 1px solid #ccc;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  padding: 16px;
+}
+
+.notes-sidebar.open {
+  right: 0;
+}
+
+.notes-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eaecef;
+}
+
+.notes-sidebar-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.notes-sidebar-header button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #666;
+}
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.note-item {
+  padding: 8px 12px;
+  border: 1px solid #eaecef;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.note-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: #666;
+}
+
+.note-item-content {
+  font-size: 14px;
+}
+
+.note-item-highlighted-text {
+  font-style: italic;
+  color: #666;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.note-sidebar-toggle {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  padding: 8px 4px;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.flash-highlight {
+  animation: flash-animation 2s 1;
+}
+
+@keyframes flash-animation {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    background-color: rgba(255, 230, 0, 0.8);
+    box-shadow: 0 0 8px rgba(255, 230, 0, 0.8);
+  }
+}
+
+.node-controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.node-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.node-btn-primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.node-btn-primary:hover {
+  background-color: #2563eb;
+}
+
+.node-btn-secondary {
+  background-color: #6b7280;
+  color: white;
+}
+
+.node-btn-secondary:hover {
+  background-color: #4b5563;
+}
+
+/* .node-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+} */
+
+.loader {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #3b82f6;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/*Flashcard styles*/
+.card {
+  perspective: 1000px;
+  min-height: 300px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-front {
+  background-color: #f8f9fa;
+}
+
+.card-back {
+  background-color: #e8f4ff;
+  transform: rotateY(180deg);
+}
+
+/* Cloze deletion styling */
+.cloze-blank {
+  background-color: #ffeeba;
+  padding: 0 5px;
+  border-radius: 3px;
+  border-bottom: 1px dashed #666;
+  font-weight: bold;
+}
+
+/* Review progress bar */
+.progress-bar {
+  height: 8px;
+  background-color: #4299e1;
+  border-radius: 9999px;
+  transition: width 0.3s ease;
+}
+
+.progress-container {
+  height: 8px;
+  width: 100%;
+  background-color: #e2e8f0;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+}
+
+/* Card type badges */
+.card-type-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: white;
+}
+
+.badge-qa {
+  background-color: #4299e1;
+}
+
+.badge-cloze {
+  background-color: #f6ad55;
+}
+
+.badge-mcq {
+  background-color: #9f7aea;
+}
+
+/* Card hover effect */
+.card-item {
+  transition: all 0.2s ease;
+}
+
+.card-item:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.card-item .card-expand {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.card-item:hover .card-expand {
+  opacity: 1;
+}
+
+/* Modal styles */
+.modal-overlay {
+  animation: fadeIn 0.2s ease;
+}
+
+.modal-content {
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+
+/* Reading Mode */
+/* Reading Mode Styles */
+.reading-mode-container {
+  background-color: var(--reading-bg-color, white);
+  color: var(--reading-text-color, #333);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+.reading-mode-layout {
+  display: block;
+}
+
+.reading-mode-content {
+  max-width: 800px;
+  padding: 0 24px 64px 24px;
+  margin-top: 48px;
+  background: transparent;
+  border: none;
+}
+
+.reading-mode-title {
+  font-family: var(--reading-font-family, serif);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Font sizes */
+.reading-mode.font-small {
+  font-size: 16px;
+}
+
+.reading-mode.font-medium {
+  font-size: 18px;
+}
+
+.reading-mode.font-large {
+  font-size: 20px;
+}
+
+.reading-mode.font-x-large {
+  font-size: 22px;
+}
+
+/* Themes */
+.reading-mode.theme-light {
+  --reading-bg-color: white;
+  --reading-text-color: #333;
+}
+
+.reading-mode.theme-sepia {
+  --reading-bg-color: #f8f1e3;
+  --reading-text-color: #5f4b32;
+}
+
+.reading-mode.theme-dark {
+  --reading-bg-color: #1a1a1a;
+  --reading-text-color: #e0e0e0;
+}
+
+/* Font families */
+.reading-mode.font-family-serif {
+  --reading-font-family: "Georgia", "Times New Roman", serif;
+  font-family: var(--reading-font-family);
+}
+
+.reading-mode.font-family-sans {
+  --reading-font-family: "Helvetica", "Arial", sans-serif;
+  font-family: var(--reading-font-family);
+}
+
+/* Line spacing */
+.reading-mode.line-spacing-tight {
+  line-height: 1.4;
+}
+
+.reading-mode.line-spacing-normal {
+  line-height: 1.6;
+}
+
+.reading-mode.line-spacing-relaxed {
+  line-height: 1.8;
+}
+
+.reading-mode.line-spacing-loose {
+  line-height: 2;
+}
+
+/* Content styling in reading mode */
+.reading-mode p {
+  margin-bottom: 1.2em;
+}
+
+.reading-mode h2 {
+  font-size: 1.75em;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  font-weight: 600;
+}
+
+.reading-mode h3 {
+  font-size: 1.4em;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  font-weight: 600;
+}
+
+.reading-mode h4 {
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.reading-mode ul, .reading-mode ol {
+  margin-bottom: 1.2em;
+  padding-left: 2em;
+}
+
+.reading-mode li {
+  margin-bottom: 0.5em;
+}
+
+.reading-mode blockquote {
+  border-left: 3px solid #ccc;
+  padding-left: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+  color: #666;
+}
+
+.reading-mode img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5em auto;
+  display: block;
+}
+
+.reading-mode figure {
+  margin: 1.5em auto;
+  text-align: center;
+}
+
+.reading-mode figcaption {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.5em;
+}
+
+.reading-mode a {
+  color: var(--reading-link-color, #0366d6);
+  text-decoration: none;
+}
+
+.reading-mode a:hover {
+  text-decoration: underline;
+}
+
+.reading-mode table {
+  margin: 1em auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.reading-mode th, .reading-mode td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+
+.reading-mode th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+/* Toolbar styling */
+.reading-mode-toolbar {
+  position: relative;
+}
+
+.reading-mode-toolbar.collapsed {
+  height: 50px;
+}
+
+.reading-mode-toolbar.expanded {
+  height: 100px;
+}
+
+/* Animation for theme transitions */
+.reading-mode-container, .reading-mode-content {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark theme specifics */
+.theme-dark .reading-mode a {
+  --reading-link-color: #58a6ff;
+}
+
+.theme-dark .reading-mode blockquote {
+  color: #aaa;
+}
+
+.theme-dark .reading-mode figcaption {
+  color: #aaa;
+}
+
+.theme-dark .reading-mode th {
+  background-color: #333;
+}
+
+.theme-dark .reading-mode th, .theme-dark .reading-mode td {
+  border-color: #444;
+}
+
+.toggle-checkbox {
+  right: 0;
+  z-index: 10;
+  border-color: #e2e8f0;
+  transition: all 0.3s;
+}
+
+.toggle-checkbox:checked {
+  right: 4px;
+  border-color: #3b82f6;
+}
+
+.toggle-label {
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.3s;
+}
+
+/* Night Mode Specific Styles */
+.reading-mode-container.night-mode {
+  --reading-bg-color: #121212;
+  --reading-text-color: #e0e0e0;
+  --reading-secondary-color: #aaa;
+  --reading-border-color: #444;
+  --reading-link-color: #90caf9;
+  --reading-highlight-color: #424242;
+}
+
+.night-mode .reading-mode-toolbar {
+  background-color: #121212;
+  color: #e0e0e0;
+  border-color: #333;
+}
+
+.night-mode .reading-mode-toolbar button:not(.bg-blue-500) {
+  color: #e0e0e0;
+}
+
+.night-mode .reading-mode-content img {
+  filter: brightness(0.8) contrast(1.1);
+}
+
+.night-mode .reading-mode-content a:not([style]) {
+  color: var(--reading-link-color);
+}
+
+.night-mode .reading-mode-content blockquote {
+  border-left-color: #555;
+  color: #bbb;
+}
+
+.night-mode .reading-mode-content table {
+  border-color: #444;
+}
+
+.night-mode .reading-mode-content th {
+  background-color: #333;
+}
+
+.night-mode .reading-mode-content td, 
+.night-mode .reading-mode-content th {
+  border-color: #444;
+}
+
+/* Threadify */
+/* src/pages/ThreadifyPage.css */
+
+/* Platform-specific styling */
+.thread-post {
+  position: relative;
+  margin-bottom: 1rem;
+  transition: all 0.2s ease;
+}
+
+.thread-post:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Twitter styling */
+.thread-post-twitter {
+  background-color: #f8faff;
+  border: 1px solid #cfd9f0;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.thread-post-twitter .post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.thread-post-twitter .post-number {
+  font-weight: bold;
+  color: #1da1f2;
+}
+
+.thread-post-twitter .character-count {
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  color: #536471;
+}
+
+.thread-post-twitter .character-count.over-limit {
+  color: #f4212e;
+}
+
+/* Instagram styling */
+.thread-post-instagram {
+  background-color: #fcf9ff;
+  border: 1px solid #e2d8ed;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.thread-post-instagram .post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.thread-post-instagram .post-number {
+  font-weight: bold;
+  color: #c13584;
+}
+
+/* LinkedIn styling */
+.thread-post-linkedin {
+  background-color: #f3f6f8;
+  border: 1px solid #dce6f1;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.thread-post-linkedin .post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.thread-post-linkedin .post-number {
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+/* Loader styling */
+.loader {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top-color: #3b82f6;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Copy button */
+.copy-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.copy-button:hover {
+  background-color: #f3f4f6;
+}
+
+/* Success message */
+.copy-success {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: #10b981;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  z-index: 50;
+  animation: fadeOut 2s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 640px) {
+  .settings-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .platform-guides {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Wikipedia-style summary styling */
+.wiki-summary {
+  font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+  line-height: 1.6;
+}
+
+.wiki-summary h2 {
+  font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+  border-bottom: 1px solid #a2a9b1;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  color: #000;
+}
+
+.wiki-summary h3 {
+  font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+  font-size: 1.2em;
+  margin-top: 0.8em;
+  margin-bottom: 0.3em;
+  font-weight: normal;
+  color: #000;
+}
+
+.wiki-summary p {
+  margin: 0.5em 0;
+}
+
+.wiki-summary ul, .wiki-summary ol {
+  margin: 0.3em 0 0.3em 1.6em;
+}
+
+.wiki-summary li {
+  margin-bottom: 0.1em;
+}
+
+.wiki-summary .summary-lead {
+  font-size: 1.05em;
+  font-family: sans-serif;
+}
+
+.wiki-summary blockquote {
+  margin: 0.7em 0 0.7em 1.6em;
+  border-left: 2px solid #c8ccd1;
+  padding-left: 1em;
+  color: #54595d;
+}
+
+/* chatbot */
+/* Add to your CSS file */
+.wiki-chat-response {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wiki-chat-response h1, 
+.wiki-chat-response h2, 
+.wiki-chat-response h3, 
+.wiki-chat-response h4, 
+.wiki-chat-response h5, 
+.wiki-chat-response h6 {
+  font-weight: 600;
+  margin: 0.5em 0 0.3em 0;
+}
+
+.wiki-chat-response p {
+  margin-bottom: 0.5em;
+}
+
+.wiki-chat-response ul, 
+.wiki-chat-response ol {
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.wiki-chat-response li {
+  margin-bottom: 0.2em;
+}
+
+.wiki-chat-response a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.wiki-chat-response a:hover {
+  text-decoration: underline;
+}
+
+.wiki-chat-response code {
+  background-color: #f5f5f5;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+/* Podcast mode styling */
+.podcast-current-section {
+  background-color: rgba(147, 51, 234, 0.1); /* Light purple background */
+  border-left: 3px solid #9333ea; /* Purple border */
+  padding-left: 8px;
+  margin-left: -11px;
+}
+
+/* Animation for the progress bar */
+@keyframes progress-bar-stripes {
+  from { background-position: 1rem 0; }
+  to { background-position: 0 0; }
+}
+
+.podcast-progress-animated {
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 1rem 1rem;
+  animation: progress-bar-stripes 1s linear infinite;
+}
