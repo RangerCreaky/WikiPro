@@ -1,4 +1,5 @@
 # 📚 WikiPro - Enhanced Wikipedia Experience
+Currently backend is down.. please wait till 6th may for smooth working of all services
 
 WikiPro is a modern, feature-rich application that transforms the way you interact with Wikipedia content. Built for researchers, students, and curious minds, WikiPro adds powerful tools and extensions to make Wikipedia more useful than ever!
 
@@ -190,4 +191,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🏆 Hackathon Project
 
-This project was created for [Hackathon Name]. We hope it demonstrates the potential for enhancing one of the web's most valuable resources with modern tools and user-centered design.
+This project was created for luma hackathon. We hope it demonstrates the potential for enhancing one of the web's most valuable resources with modern tools and user-centered design.
