@@ -128,23 +128,30 @@ WikiPro enhances the Wikipedia experience with:
 - Sharing and collaborative decks
 - Mobile app integration for on-the-go learning
 
-### 🧵 Threadify (Content Transformation)
-**What it does**: Converts Wikipedia articles into social media thread format.
+### 🧵 Notes
+**What it does**: Take notes on the article
 
-**Why it's useful**: Makes it easy to share educational content across platforms. Great for educators, content creators, and social media managers looking to share knowledge in digestible formats.
+**Why it's useful**: User might want to take notes on whatever they have read. Hihgly usefull to have an inplace note taking.
+**Features**:
+- Highlight any sentences or paragraphs
+- add notes
+- add summary
+- Check the latest notes or summary in a sidebar
+**Future Scope**:
+- add the history of all notes and highlights in the sidebar
+- add login feature and save the notes
+
+### 🧵 Reading mode
+**What it does**: Gives options to change the font and layout of the article
 
 **Features**:
-- Multiple platform formats (Twitter, Instagram, LinkedIn)
-- Tone adjustment (casual, professional, teacher)
-- Export functionality
-- Automatic chunking of content
+- Distraction free mode
+- dark mode
+- Font size changes
+- Line spacing changes
+- font changes
 
-**Future Scope**:
-- Direct social media posting
-- Image and visual element incorporation
-- Thread scheduling
-- Analytics for educational content sharing
-
+  
 ### 🎙️ Podcast Export (Work in Progress)
 **What it does**: Converts Wikipedia articles into podcast-friendly format.
 
