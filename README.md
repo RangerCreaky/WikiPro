@@ -198,4 +198,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🏆 Hackathon Project
 
-This project was created for luma hackathon. We hope it demonstrates the potential for enhancing one of the web's most valuable resources with modern tools and user-centered design.
+This project was created for outlier.ai vibe coding hackathon. We hope it demonstrates the potential for enhancing one of the web's most valuable resources with modern tools and user-centered design.
