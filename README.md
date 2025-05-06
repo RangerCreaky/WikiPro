@@ -5,47 +5,43 @@ WikiPro is a modern, feature-rich application that transforms the way you intera
 
 ## 🚀 Getting Started
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/wikipro.git
 
-# Navigate to the project directory
-cd wikipro
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
+[wikipediaPro]([url](https://wikipediapro.vercel.app))
 
 ## 🔍 Core Features
 
 WikiPro enhances the Wikipedia experience with:
 
 - 🎨 **Modern UI**: Clean and responsive interface that improves readability
-- 📱 **Mobile Friendly**: Optimized for all devices and screen sizes
 - 🔄 **Real-time Updates**: Stay current with the latest Wikipedia content
-- 🚀 **Fast Performance**: Optimized loading and rendering for a smooth experience
+- 🧠 **AI Integrated encyclopedia**: Leverage AI to summarize and converse with the wikipedia content
 
 ## 🧩 Extensions & Enhancements
 
-### 🧠 Mind Map Generator
-**What it does**: Creates interactive mind maps from Wikipedia article structures.
-
-**Why it's useful**: Visualizes complex topics and hierarchies, making it easier to understand relationships between concepts. Perfect for visual learners and researchers mapping knowledge domains.
+### 🧠 AI Summarizer
+**What it does**: Summarizes the whole huge articles within seconds
+**Why it's useful**: Very often the wikipedia articles are too big to read he whole thing. Ai summarizer as teh name suggests summarizes the article.
 
 **Features**:
-- Interactive node expansion
-- Export as PNG image
-- Export as Markdown
-- Customizable layout
+- AI enhanced summarizer
+- Simple UI
+- Export as Markdown (WIP)
 
 **Future Scope**:
-- Add more layout algorithms
-- Support for color-coding by topic
-- Integration with note-taking systems
-- Collaborative mind mapping
+- user interactive summarizer
+- export feature
+- allowing embeddings for social media
+
+### 🧠 Ask AI Chatbot
+**What it does**: Chatbot to have a conversation with the article
+**Why it's useful**: You might have some questions which brought you to the article. instead of reading through the whole article have a conversation with the article using the ASK AI Chatbot
+
+**Features**:
+- Leverages AI to answer questions from the article
+- some pre suggested questions
+
+**Future Scope**:
+- proper caching and precomputing to optimize the chatbot
 
 ### ⏱️ Timeline Generator
 **What it does**: Automatically extracts and visualizes chronological information from articles.
