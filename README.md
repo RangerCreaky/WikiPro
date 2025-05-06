@@ -5,8 +5,9 @@ WikiPro is a modern, feature-rich application that transforms the way you intera
 
 ## 🚀 Getting Started
 
-
-[wikipediaPro]([url](https://wikipediapro.vercel.app))
+[WikipediaPro](https://wikipediapro.vercel.app)
+[Backend Docs](https://wikiprobackend.onrender.com/docs)
+[Backend Repo](https://github.com/RangerCreaky/WikiProBackend)
 
 ## 🔍 Core Features
 
@@ -150,6 +151,9 @@ WikiPro enhances the Wikipedia experience with:
 - Font size changes
 - Line spacing changes
 - font changes
+
+### 🧵 Export (Work In Progress)
+**What it does**: Export the article in PDF, PPTX, DOCX formats and generate reports
 
   
 ### 🎙️ Podcast Export (Work in Progress)
